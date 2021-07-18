@@ -21,7 +21,23 @@ blockquote {
   letter-spacing: 0.1rem;
   line-height: 1.5rem;
 }
+.genreBtn {
+  cursor: pointer;
+  background: #e5e7eb;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  margin: 1rem 0.8rem;
+  transition: 0.4s;
+  font-size: 1.2rem;
+}
 
+.genreBtn:hover {
+  background: #1e222c;
+  color: #e5e7eb;
+  border-color: transparent;
+  transform: scale(1.05);
+}
 hr {
   opacity: 0.1;
 }

@@ -19,17 +19,7 @@ export default function App() {
 
       <div>
         {Object.keys(bookDB).map((genre) => (
-          <button
-            onClick={() => genreClickHandler(genre)}
-            style={{
-              cursor: "pointer",
-              background: "#E5E7EB",
-              borderRadius: "0.5rem",
-              padding: "0.5rem  1rem",
-              border: "1px solid black",
-              margin: "1rem 0.3rem"
-            }}
-          >
+          <button className="genreBtn" onClick={() => genreClickHandler(genre)}>
             {genre}
           </button>
         ))}
