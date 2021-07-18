@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Headland+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -10,7 +14,9 @@ body {
   color: white;
   user-select: none;
 }
-
+h1 {
+  font-family: "Headland One", serif;
+}
 blockquote {
   background-color: rgba(255, 255, 255, 0.05);
   border-left: 10px solid #444;
@@ -77,4 +83,22 @@ hr {
   padding-left: 2rem;
   height: 11rem;
   border-left: 3px solid grey;
+}
+
+.bookName {
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 600;
+  font-size: 2rem;
+  margin-bottom: 0.8rem;
+}
+
+.bookAuthor {
+  font-size: 1.4rem;
+  margin: 0.5rem 0rem;
+  color: #a4b0be;
+}
+
+.bookRating {
+  font-size: 1.2rem;
+  color: #7f8c8d;
 }

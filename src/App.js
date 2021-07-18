@@ -35,15 +35,9 @@ export default function App() {
             ></img>
 
             <div className="bookDetails">
-              <div style={{ fontSize: "1.8rem", marginBottom: "0.5rem" }}>
-                {" "}
-                {book.bookName}{" "}
-              </div>
-              <div style={{ fontSize: "1.2rem", marginBottom: "0.2rem" }}>
-                {" "}
-                {book.author}
-              </div>
-              <div> {book.rating} </div>
+              <div className="bookName">{book.bookName} </div>
+              <div className="bookAuthor">{book.author}</div>
+              <div className="bookRating"> {book.rating} </div>
             </div>
           </div>
         ))}
