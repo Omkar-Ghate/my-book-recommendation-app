@@ -12,10 +12,10 @@ export default function App() {
   return (
     <div className="App">
       <h1> Omkar's Book Recommendations </h1>
-      <p style={{ fontSize: "smaller" }}>
-        {" "}
-        Checkout my favorite books. Select a genre to get started{" "}
-      </p>
+      <blockquote>
+        “A reader lives a thousand lives before he dies...The man who never
+        reads lives only one.”
+      </blockquote>
 
       <div>
         {Object.keys(bookDB).map((genre) => (
