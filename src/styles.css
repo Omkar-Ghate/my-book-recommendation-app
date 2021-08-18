@@ -54,6 +54,7 @@ hr {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin: auto;
 }
 
 .bookItem {
@@ -116,12 +117,19 @@ hr {
 }
 @media (max-width: 425px) {
   .bookName {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .bookAuthor {
     font-size: 1rem;
   }
   .bookRating {
     font-size: 1rem;
+  }
+}
+@media (max-width: 350px) {
+  .bookImage {
+    height: 8rem;
+    width: 6rem;
+    margin: auto 1rem;
   }
 }
