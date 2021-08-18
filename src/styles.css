@@ -7,6 +7,7 @@
   text-align: center;
   max-width: min(700px, 85vw);
   margin: auto;
+  box-sizing: border-box;
 }
 
 body {
@@ -101,4 +102,26 @@ hr {
 .bookRating {
   font-size: 1.2rem;
   color: #7f8c8d;
+}
+@media (max-width: 550px) {
+  .bookName {
+    font-size: 1.5rem;
+  }
+  .bookAuthor {
+    font-size: 1.2rem;
+  }
+  .bookRating {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 425px) {
+  .bookName {
+    font-size: 1rem;
+  }
+  .bookAuthor {
+    font-size: 1rem;
+  }
+  .bookRating {
+    font-size: 1rem;
+  }
 }
