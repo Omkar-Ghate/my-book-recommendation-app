@@ -1,6 +1,10 @@
 import React from "react";
 import "./styles.css";
 import { useState } from "react";
+import linkedIn from "./linkedIn.png";
+import twitter from "./twitter.png";
+import github from "./github.png";
+import briefcase from "./briefcase.png";
 
 import bookDB from "./data";
 
@@ -42,6 +46,33 @@ export default function App() {
           </div>
         ))}
       </div>
+      <footer>
+        <div className="creator">
+          Made with <strong>&lt;/&gt;</strong> by Omkar Ghate
+        </div>
+        <ul>
+          <li className="footerLink">
+            <a href="https://github.com/Omkar-Ghate" target="blank">
+              <img className="socialIcon" src={github}></img>
+            </a>
+          </li>
+          <li className="footerLink">
+            <a href="https://twitter.com/OmkarGhate9" target="blank">
+              <img className="socialIcon" src={twitter}></img>
+            </a>
+          </li>
+          <li className="footerLink">
+            <a href="https://www.linkedin.com/in/omkarghate/" target="blank">
+              <img className="socialIcon" src={linkedIn}></img>
+            </a>
+          </li>
+          <li className="footerLink">
+            <a href="https://omkarghate.netlify.app/" target="blank">
+              <img className="socialIcon" src={briefcase}></img>
+            </a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
