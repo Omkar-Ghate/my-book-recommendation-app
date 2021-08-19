@@ -13,6 +13,13 @@ export default {
       photoURL:
         "https://images-na.ssl-images-amazon.com/images/I/71eijJe2ntL.jpg",
       rating: "4/5"
+    },
+    {
+      bookName: "The Infinite Game",
+      author: "Simon Sinek",
+      photoURL:
+        "https://images-na.ssl-images-amazon.com/images/I/41ZEqQlcA+S._SY344_BO1,204,203,200_.jpg",
+      rating: "4/5"
     }
   ],
   Finance: [
@@ -29,6 +36,13 @@ export default {
       photoURL:
         "https://images-na.ssl-images-amazon.com/images/I/91mJmoqx5zL.jpg",
       rating: "5/5"
+    },
+    {
+      bookName: "Rich Dad Poor Dad",
+      author: "Robert Kiyosaki",
+      photoURL:
+        "https://images-na.ssl-images-amazon.com/images/I/51wOOMQ+F3L._SY344_BO1,204,203,200_.jpg",
+      rating: "4.5/5"
     }
   ],
   Spirituality: [
@@ -45,6 +59,13 @@ export default {
       photoURL:
         "https://images-na.ssl-images-amazon.com/images/I/41cbPheOxmL._SX323_BO1,204,203,200_.jpg",
       rating: "4.5/5"
+    },
+    {
+      bookName: "Flow",
+      author: "Mihaly Csikszentmihalyi",
+      photoURL:
+        "https://images-na.ssl-images-amazon.com/images/I/4187W86yEUL._SX326_BO1,204,203,200_.jpg",
+      rating: "4.5/5"
     }
   ],
   JavaScript: [
@@ -53,13 +74,20 @@ export default {
       author: "Marijn Haverbeke",
       photoURL:
         "https://images-na.ssl-images-amazon.com/images/I/91q8Jx+j6iL.jpg",
-      rating: "4.5/5"
+      rating: "5/5"
     },
     {
       bookName: "You Don't Know JS Yet",
       author: "Kyle Simpson",
       photoURL:
         "https://images-na.ssl-images-amazon.com/images/I/71mKvD89oEL.jpg",
+      rating: "4.5/5"
+    },
+    {
+      bookName: "JavaScript for Dummies",
+      author: "Chris Minnick",
+      photoURL:
+        "https://images-na.ssl-images-amazon.com/images/I/51H092AmIlL._SX382_BO1,204,203,200_.jpg",
       rating: "4.5/5"
     }
   ]
